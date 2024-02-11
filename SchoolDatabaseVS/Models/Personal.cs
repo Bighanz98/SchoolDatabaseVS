@@ -13,6 +13,9 @@ namespace SchoolDatabaseVS.Models
         public int PersonalId { get; set; }
         public string? Namn { get; set; }
         public string? YrkesRoll { get; set; }
+        public DateTime AnställningsDatum { get; set; }
+        public int Löner { get; set; }
+        
 
         public virtual ICollection<Betyg> Betygs { get; set; }
     }
